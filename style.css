@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+     padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+ ul{
+    display:flex ;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+ ul li{
+    padding: 0 12px;
+}
+
+
+.brand img{
+    width:44px;
+    padding:0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 61vh;
+    background-color: black;
+    color: white;
+    font-family:'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('C:\\Users\\bushr\\OneDrive\\Documents\\music player\\background.webp');
+
+}
+
+
+.bottom{
+    position:sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+    margin-left: -200px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between ;
+    align-items: center;
+    border-radius: 34px; 
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin:0 23px; 
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family:'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+
+  a#signin-button.button.logout.signin.w-button {
+    background-color: #66ffcc;
+    border-radius: 25px;
+    bottom: auto;
+    box-sizing: border-box;
+    color: #253858;
+    display: block;
+    flex: 1;
+    float: right;
+    font-family:'Varela Round', sans-serif ;
+    font-weight: bold;
+    font-size: 14px;
+    left: auto;
+    line-height: 19px;
+    margin-left: -15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 5px 15px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    z-index: 30;
+  }
+
+ /*sign up*/
+
+ .a{
+    padding: 10px 50px;
+ }
+
+ h2{
+    text-align: center;
+    font-family:' Varela Round', sans-serif;
+    font-weight:900;
+    margin-top: 32px;
+    font-size:xx-large;
+
+ }
+
+ .form{
+    display:grid;
+    margin-left: 50vh;
+ }
+ .formdesign{
+    font-size: 20px;
+
+ }
+ 
+ .forminput{ 
+    width: 50%;
+    padding: 5px 10px;
+    margin: 14px;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 2px solid green;
+ }
+
+ .formerror{
+    color: red;
+ }
+
+ .sub{
+    border-radius:9px;
+    width: 100px;
+    height: 50 px;
+    font-size: 25px;
+    margin: 22px 20px;
+ }
+
+ .gender{
+    display: flex;
+ }
+ 
+
+
+   
+
+   
