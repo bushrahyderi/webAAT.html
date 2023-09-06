@@ -5,20 +5,25 @@
     <link rel="stylesheet" href="C:\Users\bushr\OneDrive\Documents\webAAT.html\style.css">
 </head>
 <body class="a">
-    <h2>Sign Up For Free To Start Listening.</h2>
+    <ul>
+        <li class="brand"><img src="C:\\Users\\bushr\\OneDrive\\Documents\\webAAT.html\\music player\\logos.png">Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
     <form class="form" action="C:\Users\bushr\OneDrive\Documents\webAAT.html\musicp.html" name="myForm" onsubmit="return validateForm()" method="post">
-
+        <div class="box">
+            <h2>Sign Up For Free To Start Listening.</h2>
         <label for="name" class="formdesign">Name:</label>
-        <input class="forminput" type="text" id="name" name="name" placeholder="Name" pattern="([A-Z])+([\w])+" title="Must contain at least one uppercase letter and one lowercase letter or digits" required><b><span id="name-formerror" class="formerror"></span></b>
+        <input class="forminput" type="text" id="name" name="name" placeholder="Name" pattern="([A-Z])+([\w])+" title="Must contain at least one uppercase letter and one lowercase letter or digits" required><b><span id="name-formerror" class="formerror"></span></b><br>
       
         <label for="email" class="formdesign">Email:</label>
-        <input class="forminput" type="email" id="email" name="email" placeholder="Email" pattern="^[\w._]{3,}@[a-z]{3,}[.]{1}[a-z.]{2,6}$" required><b><span id="email-formerror" class="formerror"></span></b>
+        <input class="forminput" type="email" id="email" name="email" placeholder="Email" pattern="^[\w._]{3,}@[a-z]{3,}[.]{1}[a-z.]{2,6}$" required><b><span id="email-formerror" class="formerror"></span></b><br>
 
         <label for="password" class="formdesign">Password:</label>
-        <input class="forminput" type="password" id="password" name="password" placeholder="Password" pattern="([A-Z])+([a-z])+([\d])+" title="Must contain atleast one number and one uppercase and lowercase letters " required><b><span id="password-formerror" class="formerror"></span></b>
+        <input class="forminput" type="password" id="password" name="password" placeholder="Password" pattern="([A-Z])+([a-z])+([\d])+" title="Must contain atleast one number and one uppercase and lowercase letters " required><b><span id="password-formerror" class="formerror"></span></b><br>
       
         <label for="confirmpassword" class="formdesign">Confirm Password:</label>
-        <input class="forminput" type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password" pattern="([A-Z])+([a-z])+([\d])+" required><b><span id="confirmpassword-formerror" class="formerror"></span></b>
+        <input class="forminput" type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password" pattern="([A-Z])+([a-z])+([\d])+" required><b><span id="confirmpassword-formerror" class="formerror"></span></b><br>
       
         <label for="gender" class="formdesign">Gender:</label>
         <div class="gender"><input type="radio" id="male" name="gender" value="male">
@@ -26,15 +31,16 @@
         <input type="radio" id="female" name="gender" value="female">
         <label for="female" class="formdesign">Female</label>
         <input type="radio" id="other" name="gender" value="other">
-        <label for="other" class="formdesign">Other</label></div>
+        <label for="other" class="formdesign">Other</label></div><br>
       
         <label for="dob" class="formdesign">Date of Birth:</label>
-        <input class="forminput" type="date" id="dob" name="dob">
+        <input class="forminput" type="date" id="dob" name="dob"><br>
       
         <label for="phone" class="formdesign">Phone Number:</label>
-        <input class="forminput" type="tel" id="phone" name="phone" placeholder="Enter 10 digits" pattern="[\d]+" title="Must contain 10 digits" required><b><span id="phone-formerror" class="formerror"></span></b>  
+        <input class="forminput" type="tel" id="phone" name="phone" placeholder="Enter 10 digits" pattern="[\d]+" title="Must contain 10 digits" required><b><span id="phone-formerror" class="formerror"></span></b><br>
       
         <input class="sub" type="submit" value="Sign Up">
+        </div>
       </form>
       <script src="C:\Users\bushr\OneDrive\Documents\webAAT.html\style.js"></script>
 </body>
